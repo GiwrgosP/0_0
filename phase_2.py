@@ -26,8 +26,6 @@ class windowHander(tk.Tk):
             else:
                 pass
 
-
-
         def descCallBack(self, *args):
             variableValue = self.values["desc"].get()
 

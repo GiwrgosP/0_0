@@ -1,3 +1,4 @@
+
 import tkinter as tk
 import os
 import phase_1
@@ -40,6 +41,55 @@ class window(tk.Tk):
         self.mainFrame.rowconfigure(1, weight=1)
 
 
+    def listToDict(self, li):
+        dict = {}
+        for l in li:
+            if l[0] in dict.keys():
+                pass
+            else:
+                dict[l[0]] = {}
+
+            if l[1] in dict.keys():
+                pass
+            else:
+                dict[l[0]][l[1]] = list()
+
+            dict[l[0]][l[1]].append((l[2],l[3]))
+
+        return dict
+
+    def exportData(self):
+
+        temp = dbUtility.get(self.path,("select\
+        k.title,\
+        t.desc,\
+        kei.title, kei.desc\
+        from ((Buttons as b \
+        left join Keimena kei on b.keimenaId = kei.id\
+        left join FramesKatigorias fk on b.themaKatigoriasId = fk.id\
+        left join Katigoria k on fk.katigoriaId = k.id) \
+        left join Thema t on fk.themaId = t.id);",list()))
+        temp = self.listToDict(temp)
+
+        with open(r'C:\Users\Vostro\Documents\GitHub\0_0\export.txt', 'w', encoding="utf-8") as f:
+            for t in temp:
+                f.write("\n Κατηγορία " + str(t))
+                f.write("{")
+                for e in temp[t]:
+                    f.write("\n Θέμα " + str(e))
+                    f.write("[")
+                    for m in temp[t][e]:
+                        print(m)
+                        f.write("\n Τίτλος " + str(m[0]))
+                        f.write("\n Κείμενο " + str(m[1]))
+                        f.write("\n")
+
+                    f.write("]")
+                    f.write("\n")
+
+                f.write("}")
+                f.write("\n")
+
     def createKatigoriaSection(self):
         try:
             self.katigoriaFame.destroy()
@@ -64,6 +114,8 @@ class window(tk.Tk):
 
 
         self.katigoriaButtons[-1] = tk.Button(self.utilityFrame,text = "Προσθήκη Νέων",command = lambda x = -1 : self.checkState(x,"phase_2"))
+        self.katigoriaButtons[-1].grid()
+        self.katigoriaButtons[-1] = tk.Button(self.utilityFrame,text = "Εξαγωγή Δεδομένων",command = lambda : self.exportData())
         self.katigoriaButtons[-1].grid()
 
         self.katigoriaFrame.columnconfigure(0, weight=1)
