@@ -1,66 +1,498 @@
 
- Κατηγορία WebAppdsds{
- Θέμα Transport[
- Τίτλος g
- Κείμενο Lorem ipsum 
-dolor sit amet, consectetur adipiscing elit. Etiam suscipit mauris et nisl ultrices, eget ultrices neque imperdiet. Ut ultricies vitae magna sit amet blandit. Aenean purus orci, suscipit in tincidunt porttitor, facilisis sed purus. Nam molestie volutpat quam vel semper. Fusce mollis, ex at lobortis tincidunt, s
-em felis commodo ante, non ornare sem lectus ut tellus. Mauris laoreet libero a augue aliquet, faucibus rutrum pu
-rus ornare. Suspendisse iaculis justo at diam tristique sagittis. Donec tortor libero, viverra at vestibulum non, m
-aximus accumsan felis. Nam molestie, metus sed dictum commodo, lectus ligula bibendum ligula, non venenatis lorem neque vitae elit. 
-]
+ Κατηγορία MeetingVids{
+ Θέμα estiasi[
+ Τίτλος Estiasi
+ Κείμενο https://tesaegr-my.sharepoint.com/:v:/r/personal/t_panousis_tesae_com/Documents/Recordings/Call%20with%20TESAE%20Support%20Dept-20220622_170707-Meeting%20Recording.mp4?csf=1&web=1&e=ulZrsZ
 
- Θέμα Παραμετροποίηση Παραστατικών[
- Τίτλος a
- Κείμενο Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam suscipit mauris et nisl ultrices
- eget
- ultrices neque imperdiet.
- Ut ultricies vitae magna sit amet blandit. Aenean purus orci,                                  sadsad
- suscipit in tincidu
-nt porttitor
 
-dsad$#@$@#EFΦΔΣΦΣΔΦΣΔΦΣΔΦΣΔΦΣΔΦΣΔΦΣΔΦΣΔΦδσαδσα'΄σ'΄φ'σδ΄φ'σφοσ'φλσά΄λγβψ,βψχ, facilisis sed purus. Nam molestie volutpat quam vel semper. Fusce mollis, ex at lobortis tincidunt, sem felis commodo ante, non ornare sem lectus ut tellus. Mauris laoreet libero a augue aliquet, faucibus rutrum purus ornare. Suspendisse iaculis justo at diam tristique sagittis. Donec tortor libero, viverra at vestibulum non, maximus accumsan felis. Nam molestie, metus sed dictum commodo, lectus ligula bibendum ligula, non venenatis lorem neque vitae elit. 
-]
 
- Θέμα Γιατροί[
- Τίτλος b
- Κείμενο Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam suscipit mauris et nisl ultrices, eget ultrices neque imperdiet. Ut ultri
-cies vitae magna sit amet blandit. Aenean purus orci, suscipit in tincidunt porttitor, facilisis sed purus. Nam molestie volutpat quam vel semper. Fusce mollis, ex at lobortis tincidunt, sem felis commodo ante, non ornare sem lectus ut tellus. 
-Mauris laoreet libero a augue aliquet, faucibus rutrum purus ornare. Suspendisse iaculis justo at diam tristique sagittis. Donec tortor liber
-o, viverra at vestibulum non, maximus accumsan felis. Nam molestie, metus sed dictum commodo, lectus ligula bibendum ligula, non venenatis lorem neque vitae elit. 
-]
 
- Θέμα Δικηγόροι[
- Τίτλος e
- Κείμενο Lorem ipsum dolo
-r sit amet, consectetur adipiscing elit. Etiam suscipit mauris et nisl ultrices, eget ultrices neque imperdiet. Ut ultricies vitae mag
-na sit amet blandit. Aenean purus orci, suscipit in tincidunt porttitor, facilisis sed purus. Nam molestie volutpat quam vel semper. Fusce mollis, ex at lobortis tincid
-unt, sem felis commodo ante, non ornare sem lectus ut tellus. Mauris laoreet libero a augue aliquet, faucibus rutr
-um purus ornare. Suspendisse iaculis justo at diam tristique sagittis. Donec tortor libero, viverra
- at vestibulum non, maximus accumsan felis. Nam molestie, metus sed dictum commodo, lectus ligula bibendum ligul
-a, non venenatis lorem neque vitae elit. 
+ Τίτλος Έλεγχος API με POSTMAN
+ Κείμενο https://tesaegr-my.sharepoint.com/:v:/g/personal/t_panousis_tesae_com/EdbTtknhz9pEpiLhgt_UJ-oB1UcqwUCUKu3lwrNoiCSBrA
+
+
+ Τίτλος Συμβάσεις Web Τάσος
+ Κείμενο https://tesaegr-my.sharepoint.com/personal/t_panousis_tesae_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Ft%5Fpanousis%5Ftesae%5Fcom%2FDocuments%2FRecordings%2FCall%20with%20%CE%A0%CE%B1%CF%81%CE%BF%CF%85%CF%83%CE%B9%CE%AC%CF%83%CE%B5%CE%B9%CF%82%20TESAE%2D20220824%5F170147%2DMeeting%20Recording%2Emp4&parent=%2Fpersonal%2Ft%5Fpanousis%5Ftesae%5Fcom%2FDocuments%2FRecordings&ga=1
+
+ Τίτλος Elaio StartUp
+ Κείμενο https://tesaegr-my.sharepoint.com/personal/t_panousis_tesae_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Ft%5Fpanousis%5Ftesae%5Fcom%2FDocuments%2FRecordings%2FCall%20with%20TESAE%20Support%20Dept%2D20220908%5F173147%2DMeeting%20Recording%2Emp4&ga=1
+
 ]
 }
 
- Κατηγορία fsdfsfsd{
- Θέμα Μετά το RVs[
- Τίτλος d
- Κείμενο Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam suscipit mauris et nisl ultrices, eget ultrices neque imperdiet. Ut ultricies vitae magna sit amet blandit. Aenean purus orci, suscipit in tincidunt porttitor, 
-facilisis sed purus. Nam molestie volutpat quam vel semper. Fusce mollis, ex at lobortis tincidunt, sem felis commodo ante, non ornare sem lectus ut tellus. Mauris laoreet libero a augue aliquet, f
-aucibus rutrum
- purus ornare. Suspendisse iaculis justo at diam tristique sagittis. Donec tortor libero, viverra at vestibulum non, maximus accumsan felis. Nam molestie, metus sed dictum commodo, lectus ligula bibendum ligula, non venenatis lorem neque vitae elit. 
+ Κατηγορία MySQL{
+ Θέμα Έλεγχος[
+ Τίτλος db schema
+ Κείμενο select table_schema,TABLE_NAME,sum((data_length+index_length)/1024/1024) AS MB from information_schema.tables group by TABLE_NAME order by MB desc
+
+
+ Τίτλος Update RollBack
+ Κείμενο update p55
+set rel=rel-1 where rel >0
+
+
+ Τίτλος concat URL Φωτογραφίας
+ Κείμενο concat("https://pegasus.petsamolis.gr/pegasus/products01/photo.php?nr01=",i00.nr01,"&type=",i02_00.p08)
+
+ Τίτλος Μέγεθος Πινάκων Βάσης
+ Κείμενο select table_schema,TABLE_NAME,sum((data_length+index_length)/1024/1024) AS MB from information_schema.tables group by TABLE_NAME order by MB desc
 ]
 }
 
- Κατηγορία ddd{
- Θέμα Μετά το RVs[
- Τίτλος a
- Κείμενο Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam suscipit mauris et nisl ultrices
- eget
- ultrices neque imperdiet.
- Ut ultricies vitae magna sit amet blandit. Aenean purus orci,                                  sadsad
- suscipit in tincidu
-nt porttitor
+ Κατηγορία RV{
+ Θέμα Καταχώρηση RV[
+ Τίτλος RV για myData
+ Κείμενο Για την εγκατάσταση και παραμετροποίηση του myDATA: 
+α. Θα πρέπει να κάνετε όλες τις διαθέσιμες αναβαθμίσεις της εφαρμογής.
+β. Θα πρέπει να δημιουργήσετε τους κωδικούς REST API για το myDATA. Δείτε την μελέτη https://www.tesae.gr/articles/protipes-meletes-i-efarmoges/pegasus-ke-mydata/egcheiridio-chrisis-mydata-&-eggrafi-sto-mydata-rest-api.html
+γ. Ακολουθήστε τα βήματα της μελέτης https://www.tesae.gr/articles/protipes-meletes-i-efarmoges/pegasus-ke-mydata/egkatastasi-&-basiki-parametropiisi-tou-module-mydata.html 
+δ. Συμβουλευτείτε τις μελέτες 
+   δ.1.: https://www.tesae.gr/articles/protipes-meletes-i-efarmoges/pegasus-ke-mydata/apostoli/paralabi-parastatikon-meso-tou-module-mydata.html
+   δ.2.: https://www.tesae.gr/articles/protipes-meletes-i-efarmoges/pegasus-ke-mydata/sichnes-erotiseis-apantiseis-gia-to-mydata.html
+   δ.3.: και τις υπόλοιπες που υπάρχουν στην σελίδα https://www.tesae.gr/articles/protipes-meletes-i-efarmoges/pegasus-ke-mydata.html
 
-dsad$#@$@#EFΦΔΣΦΣΔΦΣΔΦΣΔΦΣΔΦΣΔΦΣΔΦΣΔΦΣΔΦδσαδσα'΄σ'΄φ'σδ΄φ'σφοσ'φλσά΄λγβψ,βψχ, facilisis sed purus. Nam molestie volutpat quam vel semper. Fusce mollis, ex at lobortis tincidunt, sem felis commodo ante, non ornare sem lectus ut tellus. Mauris laoreet libero a augue aliquet, faucibus rutrum purus ornare. Suspendisse iaculis justo at diam tristique sagittis. Donec tortor libero, viverra at vestibulum non, maximus accumsan felis. Nam molestie, metus sed dictum commodo, lectus ligula bibendum ligula, non venenatis lorem neque vitae elit. 
+Αν θέλετε να κάνει την εργασία δικός μας τεχνικός 
+μπορείτε να κλείσετε RV μέσα από την ΠΠΥ, όπου θα βρείτε τις διαθέσιμες ημέρες και ώρες. 
+Το Κόστος είναι 40 ευρώ/ώρα. Ελάχιστη Χρέωση = 20 ευρώ (μισή ώρα). 
+Αν έχετε προαγοράσει ώρες, η Χρέωση θα αφαιρεθεί από αυτές. 
+
+Αν η διάρκεια του RV είναι κάτω από 10 λεπτά δεν θα έχει χρέωση.
+
+ Τίτλος Απλό RV
+ Κείμενο Αν θέλετε να κάνει την εργασία δικός μας τεχνικός 
+μπορείτε να κλείσετε RV μέσα από την ΠΠΥ, όπου θα βρείτε τις διαθέσιμες ημέρες και ώρες. 
+Το Κόστος είναι 40 ευρώ/ώρα. Ελάχιστη Χρέωση = 20 ευρώ (μισή ώρα). 
+Αν έχετε προαγοράσει ώρες, η Χρέωση θα αφαιρεθεί από αυτές. 
+
+Αν η διάρκεια του RV είναι κάτω από 10 λεπτά δεν θα έχει χρέωση.
+
+Αν το θέμα οφείλεται σε λάθος μας δεν θα υπάρξει χρέωση.
+
+Αν πρέπει να γίνει σήμερα το RV, καταχωρήστε ένα RV μέσα από την ΠΠΥ, για να γίνει η αποδοχή του RV και της χρέωσης, 
+και καλέστε μας να συνδεθεί επιτόπου ο πρώτος διαθέσιμος τεχνικός.
+
+]
+
+ Θέμα Λογισμικά Απομακρυσμένης Σύνδεσης[
+ Τίτλος Anydesk σε Mac
+ Κείμενο https://1-grid.com/knowledge/how-to-enable-anydesk-on-mac/
+
+]
+
+ Θέμα Μετά το RV[
+ Τίτλος RV χωρίς χρέωση
+ Κείμενο Η Εργασία είναι χωρίς χρέωση γιατί: 
+    α. η εγκατάσταση καλύπτεται με ΕΣΤΕΣ,
+    β. το RV ήταν προγραμματισμένο και μη επείγον,
+    γ. κράτησε λιγότερο από 10 λεπτά.
+
+
+]
+}
+
+ Κατηγορία Web{
+ Θέμα PHP[
+ Τίτλος Έλεγχος sme
+ Κείμενο 1. θα γίνει έλεγχος στους φακελους \pegasus και \pegasus_cloud_app αν υπάρχουν υποφάκελοι με λήμμα sme, τους οποίους θα κρατήσουμε.
+
+2. θα γίνει έλεγχος στον φάκελο \pegasus, αν έχει υποφάκελο \templateXXX, τον οποιό θα κρατήσουμε.
+
+3. θα κάνουμε εξαγωγή ο,τι custom φόρμα υπάρχει
+
+ Τίτλος Αναβάθμιση PHP
+ Κείμενο Αρχικά μπορείτε να δείτε τη μελέτη
+
+https://www.tesae.gr/articles/protipes-meletes-i-efarmoges-(pegasus-webapp)/pegasus-hermes-ke-technika-themata/metafora-pegasus-webapp-apo-php-5.6-se-7.4-gia-webserver-efarmoges.html
+
+Αν θέλετε η εργασία να γίνει από εμάς, θα χρειαστεί να μας δώσετε πρόσβαση στο cpanel του χώρου σας.
+
+Το κόστος ανέρχεται σε 2 ώρες υποστήριξης (40 ευρώ * ώρες) + ΦΠΑ(στο κόστος αυτό δεν υπολογίζονται τυχόν αλλαγές που πρέπει να γίνουν σε υλοποιήσεις sme στην εγκατάσταση σας, οι οποίες θα πρέπει να ελεγχθούν πριν τη διαδικασία).
+]
+
+ Θέμα WooCommerce[
+ Τίτλος Woo -> Erp Ενημέρωση Ειδών
+ Κείμενο  Η διασύνδεση έχει καθαρά σκοπό να ενημερώνει κάποια πολύ βασικά στοιχεία των ειδών που έχουν νόημα να αλλάζουν και στο erp  , π.χ. την περιγραφή ή οι τιμές.
+Η διασύνδεση με το Woo δεν έχει ως σκοπό την αμφίδρομη 1-1 αντιστοίχιση των λειτουργιών του Woo με το ERP αλλά σκοπός της είναι να μην χρειάζεται ο χειριστής να καταχωρεί τα είδη 2 φορές, τις παραγγελίες/πελάτες με το χέρι στο erp καθώς και να μην χρειάζεται να ενημερώνει τη διαθεσιμότητα και στα 2 συστήματα με το χέρι. 
+Συνεπώς, με βάση το σχεδιασμό του module όλη η πληροφορία που είτε δεν μπορεί να αντιστοιχιστεί π.χ. Κατηγορίες ή δεν χρειάζεται να αντιστοιχιστεί π.χ. Φωτογραφίες, θα πρέπει να καταχωρείται και να επεξεργάζεται από το Woo. 
+
+ Τίτλος Διαγραφή Ειδών Woo
+ Κείμενο Μπορείτε να κάνετε το εξής: 
+α. Μπαίνετε στην επιλογή [Toolbox->Εργαλεία Παραμετροποίησης->Διασύνδεση με WooCommerce->WooCommerce Προϊόντα] και βρίσκετε τα είδη που θέλετε να διαγράψετε. Πατώντας ενέργειες -> Ενεργοποίηση / Απενεργοποίηση πολλαπλης επιλογής , μετά μπορείτε να επιλέξετε πολλαπλά είδη με το πληκτρο Ctrl ή Shift και να τα διαγράψετε. 
+
+β. Κάνετε την ίδια δουλειά και για τα είδη της αποθήκης σας. 
+
+
+ Τίτλος Διασύνδεση με woo Μελέτη
+ Κείμενο υπάρχει το module Διασύνδεση με WooCommerce (Module: PE.00.117) για το οποίο μπορείτε να βρείτε πληροφορίες στο παρακάτω σύνδεσμο:
+
+https://www.tesae.gr/articles/protipes-meletes-i-efarmoges-(pegasus-webapp)/diasindesi-me-woocommerce.html .
+
+Παρακαλώ πολύ όπως ελέγξετε τις βασικές λειτουργίες του Module και συγκεκριμένα στο σύνδεσμο [FAQ: Συνήθεις ερωτήσεις για τις δυνατότητες και τους περιορισμούς του Woocommerce module], έτσι ώστε να μας επιβεβαιώσετε οτι σας καλύπτει.
+
+Το site θα είναι καινούριο , στο οποιο θα μεταφερθούν τα είδη απο την εφαρμογή pegasus προς το site?
+
+Σε κάθε περίπτωση είμαστε στη διάθεση σας για οποιαδήποτε διευκρίνηση.
+]
+
+ Θέμα myData[
+ Τίτλος Μελέτη FAQ myData
+ Κείμενο https://www.tesae.gr/articles/protipes-meletes-i-efarmoges/pegasus-ke-mydata/sichnes-erotiseis-apantiseis-gia-to-mydata.html
+
+
+ Τίτλος Αποστολή ΑΛΠ στο myData
+ Κείμενο Αν θέλετε να στείλετε αναλυτικά τις ΑΠΛ για όλο το 2021, θα πρέπει:
+α. Στην επιλογή [ToolBox-> Εργαλεία Παραμετροποίησης -> Παραμετροποίηση Εφαρμογής -> Κεντρικοί Πίνακες Παραμετροποίησης -> Συναλλαγών και Συναλλασσομένων -> Ορισμός Παραστατικών Πελατών]
+θα επιλέξετε το παραστατικό που θέλετε (π.χ. ΑΠΛ). Στην συνέχεια θα επιλέξετε [Λοιπές Δράσεις -> Αντιστοιχίες Κεντρικών Πινάκων] -> [myDATA: Κατηγορίες Παραστατικών (προς Αποστολή στο myDATA)] και θα την αντιστοιχίσετε με ΑΠΛ
+
+
+
+β. Θα εκτελέσετε την επλογή [Αυτοματισμοί -> myDATA -> Δημιουργία Παραστατικών από το ERP]
+[Ημερομηνία Από] = 01/01/2021
+[Ημερομηνία Εως] = 31/12/2021
+[Τροποποίηση Από] = κενή ημερομηνία και ώρα
+[Τροποποίηση Εως] = 31/12/2999 και ώρα 23:59
+Να γίνουν μόνο οι Νέες Εγγραφές = Το τσεκάρετε.
+
+
+
+γ. Θα εκτελέσετε την επιλογή [Αυτοματισμοί -> myDATA -> Αποστολή Παραστατικών]
+
+
+
+Προτείνω εκτελέσετε τα παραπάνω για μικρά διαστήματα ανάλογα με τον όγκο των παραστατικών σας.
+
+]
+
+ Θέμα Λοιπά[
+ Τίτλος Δημιουργία Χρήστη
+ Κείμενο Εφοσον ολες οι αναβαθμισεις εχουν γινει και το θέμα παραμένει, παρακαλώ όπως δημιουργήσετε εναν προσωρινο χρηστη να συνδεθουμε και να δουμε το ζήτημα.
+
+Μπορείτε να δημιουργήσετε έναν νέο χρήστη μέσα από την επιλογή [Toolbox->Εργαλεία Παραμετροποίησης->Παράμετροι πυρήνα->Xρήστες Προγράμματος], αντιγραφoντας τον χρηστη admin με το button [ενέργειες->αντιγραφή].
+
+Ορίστε άλλο username και password σε αυτόν και καταγράψτε τα στην ΠΠΥ.
+
+
+ Τίτλος Εγκατάσταση Freelancer
+ Κείμενο Ολοκληρώθηκε η εγκατάσταση του Pegasus Web App Freelancer στην διεύθυνση: kolbatzis.pegcloud.io
+
+Ακολουθούν οι βασικές οδηγίες σχετικά με τη χρήση της εφαρμογής καθώς και τα βήματα παραμετροποίησής της:
+
+Για να συνδεθείτε στο admin:
+URL: https://kolbatzis.pegcloud.io/pegasus_cloud_app/peg002_app/index.html 
+Username: admin
+Password: kolb!@#
+
+Πρώτες Ρυθμίσεις
+
+Είναι σημαντικό να γίνουν όλες οι απαραίτητες αναβαθμίσεις από την επιλογή [Toolbox->Αναβάθμιση Εφαρμογής]. Θα πρέπει να βάλετε στις διαδικασίες του καταστήματος την αναβάθμιση της εφαρμογής σε τακτά χρονικά διαστήματα.
+
+Για να ορίσετε τους τίτλους εκτυπώσεων για τα παραστατικά σας, θα χρησιμοποιήσετε την επιλογή [Toolbox->Εργαλεία Παραμετροποίησης->Παράμετροι πυρήνα->Βασικές Παράμετροι εφαρμογής]. Επίσης, στην επιλογή [Toolbox->Εργαλεία Παραμετροποίησης->Παραμετροποίηση Παραγγελιών-Παραστατικών->Βασικές Παράμετροι Παραγγελιών-Παραστατικών->tab Εκτυπώσεις Φορμών] μπορείτε να καταχωρήσετε logo/υδατογράφημα που θα εμφανίζονται στα παραστατικά όπως και στοιχεία για το footer (π.χ. Λογαριασμοί τραπεζας).
+
+Για να μπορείτε να στείλετε mail με e-mail  διαφορετικο απο  noreply@pegcloud.io, δείτε την επιλογή [Toolbox->Εργαλεία Παραμετροποίησης->Παράμετροι πυρήνα->Βασικές Παράμετροι εφαρμογής->Στοιχεία SMTP σύνδεσης]. Καταχωρώντας τα σχετικά στοιχεία, κάνετε κλικ στο button [Έλεγχος Επικοινωνίας SMTP] για να βεβαιωθείτε για την εγκυρότητα των στοιχείων σας.
+
+Για να καταχωρήσετε τα στοιχεία σύνδεσης με την υπηρεσία άντλησης στοιχείων μέσω ΑΦΜ από την ΑΑΔΕ, δείτε τη μελέτη:
+https://www.tesae.gr/articles/protipes-meletes-i-efarmoges-(pegasus-hermes)/pegasus-hermes-ke-technika-themata/energopiisi-ke-prosarmogi-tou-service-paralabis-ton-sticheion-apo-to-afm-sti-diadiktiaki-efarmogi.html
+
+
+Ενδεικτικά μπορείτε να δείτε τα πρώτα βήματα για το αρχικό στήσιμο της εφαρμογής σας από εδώ:
+https://www.tesae.gr/articles/protipes-meletes-i-efarmoges-(pegasus-hermes)/pegasus-hermes-ke-technika-themata/prota-bimata-parametropiisis-pegasus-web-app-erp-start-up.html
+
+Eπισης δειτε ολες τις μελετες σχετικα με το myDATA εδω:
+https://www.tesae.gr/articles/protipes-meletes-i-efarmoges-(pegasus-hermes)/pegasus-ke-mydata.html
+
+ Τίτλος cpanel σε pegcloud.io 
+ Κείμενο pegcloud.io είναι μαι δομή που φιλοξενούμε μόνο εφαρμογές χωρίς - email και χωρίς cpanel κια χωρίς καμιά άλλη πρόσβαση εκτός από admin.
+
+Για τη φιλοξενια wordpress λόγο προβλημάτων που έχουμε μην αναβαθμιζόμενα modules , ταχύτητα και security τα φιλοξενούμε σε ενα συγκεκριμένο server cpanel6 και απαγορεύουμε την εγκατάσταση σε οποίον διποτε άλλον μας server.
+
+Γενικά λόγω του ότι δεν έχουμε γνώσεις απο wordpress προτείνουμε η εγκατάσταση να γίνεται σε τρίτους παρόχους.
+
+Αν σας είπαμε ότι θα σας φιλοξενήσουμε το wordpress χωρίς κόστος και υπάρχει τετοια συμφωνία να σας ανοίξουμε ότι πακέτο σας υποσχεθήκαμε στο cpanel6 και βάλτε τα site που θελετε
+
+
+
+ Τίτλος Πρόβλημα με gmail
+ Κείμενο Εάν προσπαθείτε να συνδέσετε gmail θα πρέπει πρώτα να έχετε κάνετε allow τα less secure app: https://support.google.com/accounts/answer/6010255?hl=en 
+Εάν έχετε ενεργοποιημένο το 2FA δεν μπορείτε να χρησιμοποιήσετε το γενικό password του gmail αλλά θα πρέπει να φτιάξετε ένα app password και να χρησιμοποιήσετε αυτό:  https://support.google.com/accounts/answer/185833?p=InvalidSecondFactor&visit_id=637751568758407872-1001298185&rd=1 
+
+Αν και πάλι δεν είναι επιτυχής ο έλεγχος SMTP server, θα χρειαστούμε login στοιχεία για να κάνουμε μία δοκιμή με ενεργοποιημένο το αναλυτικό log. 
+
+
+
+ Τίτλος CardLink
+ Κείμενο Τα βήματα για τη σύνδεση με Cardlink :
+1. Toolbox->Εργαλεία Παραμετροποίησης->Παραμετροποίησης Πελατών->Τρόποι Είσπραξης : Ορίζουμε τρόπο είσπραξης για Είσπραξη με Πιστωτική - τσεκάρουμε το "Εμφανίζεται στο Internet".Επιλέγουμε ως Online Τρόπο Εισπραξης τον 7:Cardlink
+2. Από το μολυβάκι , δίπλα από τον Online τρόπο είσπραξης τον διαχειριζόμαστε:
+Δίνουμε το form action , το mid και το shared secret που μας έχει δοθεί από την τράπεζα. Στην παράμετρο trType δίνουμε 1 αν για sale(αγορά) και 2 για authorization(προέγκριση)
+3. Κάνουμε μία δοκιμαστική αγορά με τις κάρτες που μας έχει δώσει η τράπεζα μέσα στο documentation. Η τράπεζα μας περιορίζει τις δοκιμαστικές πληρωμές σε ποσά κάτω του 0,1 €.Εφόσον ολοκληρώσουμε επιτυχώς τις δοκιμές μας ενημερώνουμε την τράπεζα για να μας δώσει τα live στοιχεία.
+
+
+ Τίτλος Disk Usage
+ Κείμενο Για να δείτε πως διανέμεται ο χώρος σας: 
+1.Κάνετε login στο cpanel 
+2.Βρίσκετε την επιλογή "Disk Space Usage"
+3.Αυτή σας οδηγεί σε μία σελίδα με τις καταναλώσεις σας σε MB για κάθε φάκελο του χώρου σας
+4.Στη δεύτερη λίστα της ίδιας σελίδας μπορείτε να δείτε την κατανάλωση για κάθε υποφάκελο 
+
+Επειδή έχετε εφαρμογή Pegasus στο χώρο σας : 
+Οι αυτοματισμοί που παρέχει η εφαρμογή σας (Toolbox->Εκτέλεση Αυτοματισμών) και μπορούν να περιορίσουν την κατανάλωση χώρου είναι οι εξής: 
+1. "Καθαρισμός των προσωρινών εγγραφών (delete temporary)" . (Για να παραμείνει μηδενικός θα πρέπει κάθε φορά οι χρήστες να βγαίνουν από την εφαρμογή με logout)
+2. "Διαγραφή των προσωρινών εγγραφών των ειδών της αποθήκης" (Η διαδικασία αυτή διαγράφει όλες τις προσωρινές (temporary) εγγραφές των φωτογραφίες των ειδών και των ομάδων τους.Τέλος θα διαγράψει τις εγγραφές του πίνακα των συγκρίσεων των ειδών που έχουν καταχωρηθεί απο χθές και πρίν.)
+3. "Ανασυγκρότηση πινάκων βάσης δεδομένων (MySQL Table Defragmentation)" .ΠΡΟΣΟΧΗ!Θα πρέπει να έχετε κλειστό το PIM όσο εκτελείτε αυτή την διαδικασία.
+4. "Διαγραφή των backup πινάκων της βάσης δεδομένων" , αυτός ο αυτοματισμός θα διαγράψει μαζικά πίνακες που έχει κρατήσει αυτόματα η εφαρμογή π.χ. όταν γίνεται κάποια μαζική διαγραφή ή αλλαγή πεδίου.
+
+
+
+
+ Τίτλος trans-delete Δικαίωμα
+ Κείμενο Από τη διαδρομή
+Toolbox->Εργαλεία Παραμετροποίησης->Παράμετροι πυρήνα->Ομάδες Χρηστών
+θα επιλέξετε το χρήστη που θέλετε και από το tab Δικαιώματα θα αλλάξετε σε ΝΑΙ το δικαίωμα trans-delete.
+
+
+
+ Τίτλος template00
+ Κείμενο Σχετικά με την εγκατάσταση του template00 για τα ξενοδοχεία που δεν έχουν φτιαγμένο site: 
+
+1.Θα βρείτε το zip για το template00 από εδώ: http://www.hermes-templates.gr/downloads/templates/template00.html . Καλό είναι να κατεβάζετε το τελευταίο zip γιατί γίνονται συχνά αλλαγές.
+2.Από την επιλογή Toolbox->Εργαλεία Παραμετροποίησης->Παραμετροποίηση Ηermes Web Site->Εγκατάσταση template, θα βρείτε το zip στον υπολογιστή σας (button browse) και θα επιλέξετε "Upload Template"
+3.Θα εμφανιστεί μία οθόνη από την οποία θα πρέπει να επιλέξετε αν οι παλιές εγγραφές των banner, και των επιλογών του menu θέλετε να διαγραφούν ή θέλετε απλά να κρυφτούν από το site. Αν δεν έχετε κάτι να κρατήσετε από αυτά , καλό είναι να διαγραφούν. 
+4. Εκτελείτε τον αυτοματισμό επαναδημιουργίας συνδέσμων site
+5. Εφόσον στο site δεν θα εμφανίσετε άλλες σελίδες και εγκαθιστούμε το template μόνο για τις default φόρμες του hotel, μπορείτε να το βάλετε "Under Construction" από την επιλογή [Toolbox->Εργαλεία Παραμετροποίησης->Παραμετροποίηση Ηermes Web Site->Bασικές Παράμετροι Ηermes] -> Σελίδα Υπό Κατασκευή.
+
+
+ Τίτλος Κωδικού Εξουσιοδότησης (Ονόματος)
+ Κείμενο μπορείτε να το βρείτε μέσα απο το tesae.gr αφου συνδεθειτε με τα στοιχεία σας , και απο [Διαδικτυακά ονόματα->Ονόματα] επιλέγετε το όνομα lilium-hotel.gr και στη συνέχεια στο [Τεχνικά χαρακτηριστικά] μπορείτε να δείτε τον κωδικό εξουσιοδότησης.
+]
+
+ Θέμα Τεχνικά[
+ Τίτλος Μεταφορά σε pegcloud
+ Κείμενο Έχουμε προγραμματίσει τη μεταφορά της εφαρμογής για 12/07/2022 και μεταξύ 17:00 με 18:00.
+
+Παρακαλώ όπως αποσυνδεθείτε από την εφαρμογή και μη συνδεθείτε, τη συγκεκριμένη ημερομηνία και ώρα, μέχρι να σας ειδοποιήσουμε ότι η μεταφορά ολοκληρώθηκε.
+
+Επιπλέον ενημερώστε μας αν υπάρχουν υλοποιήσεις sme ώστε να τις μεταφέρουμε στη νέα εφαρμογή.
+
+Καλό είναι να έχετε εκτελέσει ολες τις διαθέσιμες αναβαθμίσεις
+
+ Τίτλος Αλλαγή Hosting 
+ Κείμενο σημαντική σημείωση: θα πρέπει να ενημερώσουμε ότι πλεον η ΤΕΣΑΕ δεν υποστηρίζει λύσεις φιλοξενίας χώρου(hosting) και πλεον δεν θα μπορείτε να ανανεώσετε το χώρο σας σε μας.
+
+Προτείνουμε να επικοινωνήσετε με τον υπ.καρτέλας σας, ώστε να σας προτείνει την ιδανική λύση για τη μεταφορά του χώρου σας εγκαίρως και χωρίς προβλήματα.
+
+
+ Τίτλος Μεταφορά extranet Ολοκλήρωση
+ Κείμενο Η διαδικασία ολοκληρώθηκε,
+Το νέο url για πρόσβαση στην εφαρμογή είναι ΧΧΧΧΧΧ.pegcloud.io .
+Σε κάθε περίπτωση, ορίσαμε redirect ώστε ακόμα και αν κάποιος χτυπήσει το παλιο url, να οδηγεί στο νέο.
+
+
+
+ Τίτλος Μεταφορά σε pegcloud.io
+ Κείμενο Ακολουθεί το σενάριο που θα ακολουθήσουμε όσον αφορά τη μεταφορά των εγκαταστάσεων:
+
+
+
+1. Μια εγκατάσταση θα πρέπει να μεταφερθεί σε άλλο πάροχο(όχι pegcloud.io) στις εξής περιπτώσεις:
+
+
+
+- Αν απαιτεί απομακρυσμένη πρόσβαση στη βάση της πχ μέσω pim
+- Αν το domain name δεν μπορεί να αλλάξει σε μορφή *.pegcloud.io για οποιοδήποτε λόγο, πχ δεν εξυπηρετεί τον πελάτη.
+- Αν η συγκεκριμένη εγκατάσταση έχει custom υλοποιήσεις στο front και απαιτείται πρόσβαση στο FTP για αλλαγές από τον developer
+
+
+
+2. Όλες οι άλλες εγκαταστάσεις μπορούν να μεταφερθούν σε δομή *.pegcloud.io .
+
+
+
+Όσον αφορά την 1η περίπτωση, θα χρειαστεί να επικοινωνήσετε με τον υπεύθυνο καρτέλας σας ώστε να σας καθοδηγήσει σχετικά.
+
+
+
+Σε κάθε περίπτωση, θα πρέπει να καταχωρηθεί ξεχωριστή ΠΠΥ για κάθε εγκατάσταση, αφενός ώστε να παρέχετε όλες τις σχετικες πληροφορίες (πχ ότι η εγκατάσταση δεν έχει pim ή δεν απαιτεί πρόσβαση σε ftp -ώστε να ξέρουμε που θα τη μεταφερουμε-), αφετέρου για να γίνει ο κατάλληλος χρονοπρογραμματισμός από το Τεχνικό καθώς και η σχετική ενημέρωση για την έναρξη/λήξη των εργασιών.
+
+ Τίτλος Μεταφορά pegcloud Υπενθυμίση
+ Κείμενο Σας υπενθυμίζουμε ότι έχουμε προγραμματίσει σήμερα τη μεταφορά της εφαρμογής σε δομή pegcloud.
+
+Θα χρειαστεί να αποσυνδεθείτε από την εφαρμογή και μη συνδεθείτε, για τις ώρες 13:00 - 15:00, μέχρι να σας ειδοποιήσουμε ότι η μεταφορά ολοκληρώθηκε.
+
+Παρακαλώ ενημερώστε μας αν θα μπορέσουμε να ξεκινήσουμε τη διαδικασία.
+
+]
+}
+
+ Κατηγορία Επαφές{
+ Θέμα Fast Path[
+ Τίτλος Αλέξανδρος Πανταζόπουλος
+ Κείμενο 2102208929
+
+]
+
+ Θέμα web hotelier[
+ Τίτλος wh mail
+ Κείμενο dev@webhotelier.net
+
+]
+
+ Θέμα ΕΝΩΣΗ ΣΕΛΙΝΟΥ[
+ Τίτλος Εσωτερικό Χρύσας
+ Κείμενο 2823041050 - 1
+]
+}
+
+ Κατηγορία Κάψιμο Εγκαταστάσεων{
+ Θέμα Οδηγίες[
+ Τίτλος Local_ERP_Installation
+ Κείμενο https://docs.google.com/document/d/1jhnFtezrUco2VUdc_EiKRoFgUDDjiFt29vKDlqWg2g4/edit
+
+]
+}
+
+ Κατηγορία Τοπικά{
+ Θέμα EPR θέματα[
+ Τίτλος Σημειώσεις Είδους
+ Κείμενο https://www.tesae.gr/articles/protipes-meletes-i-efarmoges/pegasus-ke-parastatika/simeioseis-eidous-parastatikou-(erp).html
+
+
+ Τίτλος path Βασικών π-Αναφορών
+ Κείμενο basic\forms_panaf\
+
+
+ Τίτλος Pegasus Reference Manual
+ Κείμενο [ToolBox-> Εργαλεία Παραμετροποίησης -> Παραμετροποίηση Εφαρμογής -> Κεντρικοί Πίνακες Παραμετροποίησης -> Παραμετροποίησης Query -> Pegasus Reference Manual] 
+
+ Τίτλος Ετικέτες από Παραστατικά Αγοράς
+ Κείμενο https://www.tesae.gr/pegasus/download01/download00.php?file=264530d6
+]
+
+ Θέμα myData[
+ Τίτλος Μελέτη FAQ myData
+ Κείμενο https://www.tesae.gr/articles/protipes-meletes-i-efarmoges/pegasus-ke-mydata/sichnes-erotiseis-apantiseis-gia-to-mydata.html
+
+
+ Τίτλος myData Unicode
+ Κείμενο Μάλλον κάποιο θέμα έχει το myDATA Service. Μπορείτε να απενεργοποιήσετε την on-line ενημέρωση των παραστατικών και να δοκιμάσετε να στείλετε αργότερα τα παραστατικά.
+Στην επιλογή [Toolbox-> Κεντρικοί Πίνακες Παραμετροποίησης -> Παραμετροποίηση myDATA -> Βασικές Παράμετροι myDATA] μπορείτε να ξετσεκάρετε το πεδίο [on-line Ενημέρωση - Αποστολή Παραστατικών]
+
+
+ Τίτλος Μαζική Διαγραφή MyData
+ Κείμενο Για να γίνει Μαζική Διαγραφή των παραστατικών από το myDATA δοκιμάστε να ενημερώσετε μαζικά στα [παραστατικά myDATA] που θέλετε να διαγράψετε (πίνακας mydt10) τα πεδία
+[Διαγράφηκε (p05)] = 1
+[Προς Επαναποστολή (p02_1)] =1
+Στην συνέχεια κάνετε πάλι αποστολή.
+Θα πάρουν MARK διαγραφής;
+Δοκιμάστε για μικρό πλήθος αρχικά.
+
+
+ Τίτλος Αποστολή ΑΛΠ στο myData
+ Κείμενο Αν θέλετε να στείλετε αναλυτικά τις ΑΠΛ για όλο το 2021, θα πρέπει:
+α. Στην επιλογή [ToolBox-> Εργαλεία Παραμετροποίησης -> Παραμετροποίηση Εφαρμογής -> Κεντρικοί Πίνακες Παραμετροποίησης -> Συναλλαγών και Συναλλασσομένων -> Ορισμός Παραστατικών Πελατών]
+θα επιλέξετε το παραστατικό που θέλετε (π.χ. ΑΠΛ). Στην συνέχεια θα επιλέξετε [Λοιπές Δράσεις -> Αντιστοιχίες Κεντρικών Πινάκων] -> [myDATA: Κατηγορίες Παραστατικών (προς Αποστολή στο myDATA)] και θα την αντιστοιχίσετε με ΑΠΛ
+
+
+
+β. Θα εκτελέσετε την επλογή [Αυτοματισμοί -> myDATA -> Δημιουργία Παραστατικών από το ERP]
+[Ημερομηνία Από] = 01/01/2021
+[Ημερομηνία Εως] = 31/12/2021
+[Τροποποίηση Από] = κενή ημερομηνία και ώρα
+[Τροποποίηση Εως] = 31/12/2999 και ώρα 23:59
+Να γίνουν μόνο οι Νέες Εγγραφές = Το τσεκάρετε.
+
+
+
+γ. Θα εκτελέσετε την επιλογή [Αυτοματισμοί -> myDATA -> Αποστολή Παραστατικών]
+
+
+
+Προτείνω εκτελέσετε τα παραπάνω για μικρά διαστήματα ανάλογα με τον όγκο των παραστατικών σας.
+
+
+ Τίτλος Εκτύπωση MARK
+ Κείμενο Η εφαρμογή το ΜΑΡΚ το ενημερώνει ασύγχρονα με την καταχώρηση-εκτύπωση του παραστατικού (δηλ. δεν περιμένει την ενημέρωση στο mYDATA για να προχωρήσει στην εκτύπωση - ώστε να μην καθυστερεί την διαδικασία καταχώρησης). Οπότε  είναι πιθανό στην εκτύπωση να μην τυπωθεί το ΜΑΡΚ, αν δεν έχει προλάβει να γίνει η ενημέρωση του myDATA. 
+Η έκφραση που μπορείτε να χρησιμοποιήσετε είναι:
+odbcprintflD('mydt10', 'mark', "=tbl='a55' && tbl_nr01={nnr01}")
+
+
+]
+
+ Θέμα Λογιστική[
+ Τίτλος Ελληνικό Λογιστικό Πρότυπο
+ Κείμενο [ToolBox-> Εργαλεία Παραμετροποίησης -> Παραμετροποίηση Εφαρμογής -> Κεντρικοί Πίνακες Παραμετροποίησης -> Γενικής Λογιστικής -> Ελληνικό Λογιστικό Πρότυπο]
+
+Σε αυτόν τον πίνακα καταχωρείτε τους λογαριασμούς που αντιστοιχούν στο Ελληνικό Λογιστικό Πρότυπο.
+Μπορέιτε να ενημερώσετε αυτόματα τονπίνακα από την επιλογή [Αυτοματισμοί -> Γενικής Λογιστικής -> Αυτόματη Ενημέρωση Λογιστικού Σχεδίου]
+
+Σκοπός της Χρήσης του ΕΛΠ.
+Συνδέετε κάθε Λογαριασμό της Λογιστικής μέ έναν του ΕΛΠ. Με αυτόν τον τρόπο μπορείτε να έχετε το Ισοζύγιο ΕΛΠ.
+Επειδη το ΕΛΠ είναι λιγότερο αναλυτικό από το Λογιστικό Σχέδιο που χρησιμοποιεί η εφαρμογή, χρησιμοποιούμε το αναλυτικό Σχέδιο για την καταχώρηση των άρθρων και αντιστοιχίζουμε τους λογαριασμούς
+
+]
+
+ Θέμα Λοιπά[
+ Τίτλος BackUp+κόστος
+ Κείμενο 
+Αν θέλετε να το ελέγξουμε:
+α. Στείλτε μας ένα backup (το δημιουργείτε από την επιλογή [Υποστήριξη -> Συντήρηση Κεντρικών Πινάκων -> Backup]).
+β. Καταγράψετε αναλυτικά τα βήματα που κάνετε και προκύπτει το παραπάνω θέμα, ώστε να μπορέσουμε να το αναπαράγουμε.
+
+Ο έλεγχος του backup έχει κόστος 1 ώρα υποστήριξης x 40 ευρώ + ΦΠΑ.
+Αν από τον έλεγχο προκύψει ανάγκη για μεγαλύτερο κόστος (π.χ. για διόρθωση των δεδομένων) θα ενημερωθείτε πριν προχωρήσουμε.
+Αν προκύψει ότι το πρόβλημα προέρχεται από κακή λειτουργία του λογισμικου δεν θα υπάρξει χρέωση. 
+
+ Τίτλος EXE και DDL εφαρμογής
+ Κείμενο Κατεβάστε από την διεύθυνση http://tesae.gr/pegasus/download01/download00.php?file=26454768 τα εκτελέσιμα και αντιγράψτε τα στο φάκελο της εφαρμογής (αντικαταστήστε τα υπάρχοντα).
+
+Κατεβάστε από την διεύθυνση το αρχείο http://tesae.gr/pegasus/download01/download00.php?file=26455cb9
+Περιέχει τα απαραίτητα dll της εφαρμογής. Αντιγράψτε τα φάκελο της εφαρμογής
+
+Για την εκτέλεση της εφαρμογής θα εκτελέσετε το pegc312.exe
+
+
+ Τίτλος Βασικά Αρχεία
+ Κείμενο Αν δεν διορθωθεί με το παραπάνω τρόπο , τότε δοκιμάστε να κατεβάσετε το αρχείο http://tesae.gr/pegasus/download01/download00.php?file=2644f224 
+και να ακολουθείσετε τις οδηγίες που αναφέρονται στο readme.txt που περιέχει.
+Πριν την διαδικασία εκτός από το backup των δεδομένων (μέσα από την εφαρμογή) θα πρέπει να αντιγράψετε και τους φακέλους που θα τροποποιήσετε.
+
+Σημείωση: Προτείνουμε να τρέχετε την εφαρμογή σαν administrator.
+Επίσης τα αρχεία που θα χρειαστεί να αντιγραφούν στην εφαρμογή, προτείνουμε να τα αντιγράψετε και να μην γίνουν μεταφορά ή αποσυμπίεση επιτόπου στους φακέλους της εφαρμογής.
+
+ Τίτλος module Phone ενεργοποίηση
+ Κείμενο Καλημέρα το Module phone μόνο με αυτόματη ενεργοποίηση μπορεί να ξεκλειδώσει
+
+Μελέτη : https://www.tesae.gr/articles/protipes-meletes-i-efarmoges/bimata-egkatastasis-parametropiisis/basika-bimata-egkatastasis-parametropiisis-tou-pegasus-module-phone.html 
+
+Βήμα 5 
+
+
+ Τίτλος Αποτύπωση π-αναφοράς
+ Κείμενο Για να υλοποιηθεί μία π-αναφορά θα πρέπει να οριστεί πλήρως ως εξής: 
+α. Τι θα δίνει ο χρήστης
+β. Τι αποτέλεσμα θα βγάζει η αναφορά (στήλες) και πώς θα υπολογίζει (αν πρέπει να υπολογίζει) τις στήλες 
+γ. Αν θέλουμε κάποια ειδική εμφάνιση (π.χ. γραμμική εκτύπωση, φόρμα, εξαγωγή σε αρχείο, κ.ο.κ.) του αποτελέσματος
+
+ώστε να την κοστολογήσουμε και στην συνέχεια να την υλοποιήσουμε με ακρίβεια  ή να σας καθοδηγήσουμε στην υλοποίησή της. 
+Δείτε τα παρακάτω video
+https://www.tesae.gr/videos/pegasus-erp/eisagogi-stis-p-anafores.htm
+για ομαδοποίηση: 
+https://www.tesae.gr/videos/pegasus-erp/p-anafores-2o-paradeigma.htm
+
+
+Για παράδειγμα: 
+Θέλω μία π-αναφορά με τις πωλήσεις ανά είδος σε περίοδο: 
+α. Ο χρήστης θα δίνει ημερομηνία από .. έως
+β. Η εφαρμογή θα βρίσκει όλα τα είδη που πωλήθηκαν στην περίοδο και θα εμφανίζει:
+   Κωδικός, Περιγραφή, Ποσότητα Πωλήσεων, Αξία Πωλήσεων, ΦΠΑ, Σύνολο (αξία + ΦΠΑ) ανά είδος (μία γραμμή συνολικά ανά είδος). 
+  Στο τέλος θέλω το σύνολο της Αξίας, του ΦΠΑ και του συνόλου. 
+με Διπλό κλικ στο είδος να μπαίνω στην οθόνη του είδους. 
+γ. Δεν θέλω κάποια ειδκή εμφάνιση του αποτελέσματος. 
+
+]
+
+ Θέμα Μέθοδοι οθόνης "retail"[
+ Τίτλος Εκτέλεση Anydesk
+ Κείμενο  μέθοδο 60: Ελέυθερη Εκτέλεση Μεθόδου με Παράμετρο 1 execute('..\..\query\drivers\remote\anydesk.exe', .f.)
+
 ]
 }
