@@ -1,9 +1,8 @@
-
 import tkinter as tk
 import os
-import phase_1
+import epiloges
 import phase_2
-import dbOrNotdb as dbUtility
+import dbOrNotdb as dbUtilit
 from tkinter import tix
 from tkinter.ttk import *
 
@@ -22,25 +21,35 @@ class window(tk.Tk):
         #name it
         self.window.title("Syzygy")
         #size it
-        self.window.geometry("1536x768")
+        self.window.geometry("800x600")
         iconPath = self.path + "\icon.ico"
         self.window.iconbitmap(iconPath)
-        self.phase = ""
-        self.katigoriaId = -1
-        self.createWindow()
 
+        self.createMainFrame()
+        self.createMenuBar()
+        
 
-    def createWindow(self):
-        #crete Main Frame
-        self.mainFrame = tk.Frame(self.window,bg = "#5ef292")
-        #create frame for katigories and utilities
-        self.createKatigoriaSection()
+    #crete Main Frame
+    def createMainFrame(self):
+        self.mainFrame = tk.Frame(self.window,bg = "#b9b5b5")
         self.mainFrame.pack(fill = "both", expand = True)
-        self.mainFrame.columnconfigure(0, weight=2)
-        self.mainFrame.columnconfigure(1, weight=1)
-        self.mainFrame.rowconfigure(0, weight=0)
-        self.mainFrame.rowconfigure(1, weight=2)
+        self.mainFrame.columnconfigure(0, weight=1)
+        self.mainFrame.columnconfigure(1, weight=10)
+        self.mainFrame.rowconfigure(0, weight=1)
+        self.mainFrame.rowconfigure(1, weight=0)
+       
+    def createMenuBar(self):    
+        self.menuBar = tk.Menu(self.window)
+        
+        utilityMenu = tk.Menu(self.menuBar, tearoff = 0)
+        utilityMenu.add_command(label = "Δεδομένα", command = lambda: epiloges.epilogesHander(self) )
+        self.menuBar.add_cascade(label = "ΕπιλοYes",  menu = utilityMenu)
+        
+        exitMenu = tk.Menu(self.menuBar, tearoff=0)     
+        exitMenu.add_command(label="Αποχωρώ",command = lambda :quit())
+        self.menuBar.add_cascade(label="Exit", menu=exitMenu)
 
+        self.window.config(menu =  self.menuBar)
 
     def listToDict(self, li):
         dict = {}

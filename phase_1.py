@@ -3,6 +3,7 @@ from operator import itemgetter
 import pyperclip
 import dbOrNotdb as dbUtility
 from tkinter import tix
+from tkinter import tix
 
 class windowHander(tk.Tk):
     def __del__(self):
