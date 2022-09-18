@@ -1,9 +1,8 @@
-
 import tkinter as tk
 import os
-import phase_1
+import epiloges
 import phase_2
-import dbOrNotdb as dbUtility
+import dbOrNotdb as dbUtilit
 from tkinter import tix
 from tkinter.ttk import *
 
@@ -22,24 +21,35 @@ class window(tk.Tk):
         #name it
         self.window.title("Syzygy")
         #size it
-        self.window.geometry("1536x768")
+        self.window.geometry("800x600")
         iconPath = self.path + "\icon.ico"
         self.window.iconbitmap(iconPath)
-        self.phase = ""
-        self.katigoriaId = -1
-        self.createWindow()
 
+        self.createMainFrame()
+        self.createMenuBar()
+        
 
-    def createWindow(self):
-
-        self.mainFrame = tk.Frame(self.window,bg = "#5ef292")
-        self.createKatigoriaSection()
+    #crete Main Frame
+    def createMainFrame(self):
+        self.mainFrame = tk.Frame(self.window,bg = "#b9b5b5")
         self.mainFrame.pack(fill = "both", expand = True)
         self.mainFrame.columnconfigure(0, weight=1)
-        self.mainFrame.columnconfigure(1, weight=0)
-        self.mainFrame.rowconfigure(0, weight=0)
-        self.mainFrame.rowconfigure(1, weight=1)
+        self.mainFrame.columnconfigure(1, weight=10)
+        self.mainFrame.rowconfigure(0, weight=1)
+        self.mainFrame.rowconfigure(1, weight=0)
+       
+    def createMenuBar(self):    
+        self.menuBar = tk.Menu(self.window)
+        
+        utilityMenu = tk.Menu(self.menuBar, tearoff = 0)
+        utilityMenu.add_command(label = "Δεδομένα", command = lambda: epiloges.epilogesHander(self) )
+        self.menuBar.add_cascade(label = "ΕπιλοYes",  menu = utilityMenu)
+        
+        exitMenu = tk.Menu(self.menuBar, tearoff=0)     
+        exitMenu.add_command(label="Αποχωρώ",command = lambda :quit())
+        self.menuBar.add_cascade(label="Exit", menu=exitMenu)
 
+        self.window.config(menu =  self.menuBar)
 
     def listToDict(self, li):
         dict = {}
@@ -90,19 +100,24 @@ class window(tk.Tk):
 
                 f.write("}")
                 f.write("\n")
-
+    #create  
     def createKatigoriaSection(self):
+        #destroy frames if  exists
         try:
             self.katigoriaFame.destroy()
             self.utilityFrame.destroy()
         except:
             pass
+        #Create a useless for now list for the katigoria and utility buttons to be accesed  from
         self.katigoriaButtons = {}
-        self.katigoriaFrame = tk.Frame(self.mainFrame, bg = "#ccccff", borderwidth = 5, relief = "groove")
-        self.utilityFrame = tk.Frame(self.mainFrame, bg = "#cce0ff", borderwidth = 5, relief = "groove")
+        #Create katigoria and utility frames
+        self.katigoriaFrame = tk.Frame(self.mainFrame, bg = "#979493", borderwidth = 5, relief = "groove")
+        self.utilityFrame = tk.Frame(self.mainFrame, bg = "#ababab", borderwidth = 5, relief = "groove")
+        #get all the katigoria buttons from datebase
         katigoriaList = dbUtility.get(self.path,("SELECT * FROM Katigoria",list()))
         col = 0
         row = 0
+        #create all buttons with a command,  in a grid form
         for katigoria in katigoriaList:
             id,title = katigoria
             self.katigoriaButtons[id] = tk.Button(self.katigoriaFrame,text = title, command = lambda x = id : self.checkState(x,"phase_1"))
@@ -113,12 +128,12 @@ class window(tk.Tk):
             else:
                 col += 1
 
-
+        #create  theutility buttons
         self.katigoriaButtons[-1] = tk.Button(self.utilityFrame,text = "Προσθήκη Νέων",command = lambda x = -1 : self.checkState(x,"phase_2"))
-        self.katigoriaButtons[-1].grid()
+        self.katigoriaButtons[-1].grid(column =  0,  row = 0)
         self.katigoriaButtons[-1] = tk.Button(self.utilityFrame,text = "Εξαγωγή Δεδομένων",command = lambda : self.exportData())
-        self.katigoriaButtons[-1].grid()
-
+        self.katigoriaButtons[-1].grid(column  =  1,row  = 1)
+        
         self.katigoriaFrame.columnconfigure(0, weight=1)
         self.katigoriaFrame.columnconfigure(1, weight=1)
         self.katigoriaFrame.columnconfigure(2, weight=1)
