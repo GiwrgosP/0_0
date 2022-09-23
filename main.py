@@ -21,31 +21,30 @@ class window(tk.Tk):
         #name it
         self.window.title("Syzygy")
         #size it
-        self.window.geometry("800x600")
+        self.window.geometry("1200x600")
         iconPath = self.path + "\icon.ico"
         self.window.iconbitmap(iconPath)
 
         self.createMainFrame()
         self.createMenuBar()
-        
+
 
     #crete Main Frame
     def createMainFrame(self):
         self.mainFrame = tk.Frame(self.window,bg = "#b9b5b5")
         self.mainFrame.pack(fill = "both", expand = True)
-        self.mainFrame.columnconfigure(0, weight=1)
-        self.mainFrame.columnconfigure(1, weight=10)
-        self.mainFrame.rowconfigure(0, weight=1)
-        self.mainFrame.rowconfigure(1, weight=0)
-       
-    def createMenuBar(self):    
+        #self.mainFrame.columnconfigure(0, weight=1)
+        #self.mainFrame.columnconfigure(1, weight=5)
+
+
+    def createMenuBar(self):
         self.menuBar = tk.Menu(self.window)
-        
+
         utilityMenu = tk.Menu(self.menuBar, tearoff = 0)
         utilityMenu.add_command(label = "Δεδομένα", command = lambda: epiloges.epilogesHander(self) )
         self.menuBar.add_cascade(label = "ΕπιλοYes",  menu = utilityMenu)
-        
-        exitMenu = tk.Menu(self.menuBar, tearoff=0)     
+
+        exitMenu = tk.Menu(self.menuBar, tearoff=0)
         exitMenu.add_command(label="Αποχωρώ",command = lambda :quit())
         self.menuBar.add_cascade(label="Exit", menu=exitMenu)
 
@@ -100,7 +99,7 @@ class window(tk.Tk):
 
                 f.write("}")
                 f.write("\n")
-    #create  
+    #create
     def createKatigoriaSection(self):
         #destroy frames if  exists
         try:
@@ -133,7 +132,7 @@ class window(tk.Tk):
         self.katigoriaButtons[-1].grid(column =  0,  row = 0)
         self.katigoriaButtons[-1] = tk.Button(self.utilityFrame,text = "Εξαγωγή Δεδομένων",command = lambda : self.exportData())
         self.katigoriaButtons[-1].grid(column  =  1,row  = 1)
-        
+
         self.katigoriaFrame.columnconfigure(0, weight=1)
         self.katigoriaFrame.columnconfigure(1, weight=1)
         self.katigoriaFrame.columnconfigure(2, weight=1)
