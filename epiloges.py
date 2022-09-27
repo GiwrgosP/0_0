@@ -7,24 +7,25 @@ import dbOrNotdb as dbUtility
 class epilogesHander(tk.Tk):
 
     def __del__(self):
-       print("Ending Phase_1")
-
-    def __init__(self,master):
         try:
             self.frameKatigories.destroy()
             self.themataKeimenaFrame.destroy()
         except:
             pass
-        #reference to window class as master
-        self.master = master
+        print("Ending Phase_1")
 
+    def __init__(self,master):
+        #reference to window class as master
+        print(self)
+        self.master = master
+        self.master.ntestroy(self)
         self.tip = tix.Balloon(self.master.window)
         self.createKatigoriesFrame()
 
     def createKatigoriesFrame(self):
         self.frameKatigories = tk.Frame(self.master.mainFrame, bg = "#ffffff", borderwidth = 5, relief = "groove")
-
         katigoriesList = dbUtility.get(self.master.path,("SELECT * FROM Katigoria",list()))
+
         row =  0
         for kat in katigoriesList:
              id,title = kat
@@ -41,7 +42,6 @@ class epilogesHander(tk.Tk):
             pass
 
         self.themataKeimenaFrame= tk.Frame(self.master.mainFrame, bg = "#ffffff", borderwidth = 5, relief = "groove")
-
         themataList = dbUtility.get(self.master.path,("SELECT id,themaId FROM FramesKatigorias WHERE katigoriaId = ?", (id,)))
 
         for thema in themataList:
@@ -51,19 +51,22 @@ class epilogesHander(tk.Tk):
             frame = tk.Frame(self.themataKeimenaFrame, bg = themaColor, borderwidth = 5, relief = "groove")
 
             label = tk.Label(frame, text = themaTitle, justify = "left",  relief = "groove", padx = 5, pady = 5, borderwidth = 10)
-            label.grid(column = 0, row = 0, sticky = "ewns")
+            label.grid(column = 0, row = 0)
 
             keimenaThematosKatigorias = dbUtility.get(self.master.path,("SELECT id,keimenaId FROM Buttons WHERE themaKatigoriasId = ?",(themaKatigoriaId,)))
 
             row = 0
             column = 1
-
             for keimeno in keimenaThematosKatigorias:
                 garbage, keimenoId =  keimeno
+
                 title, keimeno = dbUtility.get(self.master.path,("SELECT title,desc FROM Keimena WHERE id = ?",(keimenoId,)))[0]
+
                 but = (tk.Button(frame, text = title, justify = "center",width = 15, wraplength = 100, command = lambda x = keimeno : pyperclip.copy(x) ))
-                self.tip.bind_widget(but, balloonmsg = keimeno)
                 but.grid(column = column, row = row)
+
+                self.tip.bind_widget(but, balloonmsg = keimeno)
+
                 if column >= 5:
                     column = 1
                     row += 1
@@ -71,16 +74,5 @@ class epilogesHander(tk.Tk):
                     column += 1
 
             frame.pack(fill = "x")
-            frame.columnconfigure(0, weight=1)
-            frame.columnconfigure(1, weight=1)
-            frame.columnconfigure(2, weight=1)
-            frame.columnconfigure(3, weight=1)
-            frame.columnconfigure(4, weight=1)
-            frame.columnconfigure(5, weight=1)
-            frame.columnconfigure(6, weight=1)
-            for r in range(row):
-                frame.rowconfigure(r, weight=1)
 
         self.themataKeimenaFrame.pack(side = "left", fill = "both", expand = True)
-        self.themataKeimenaFrame.columnconfigure(0, weight=1)
-        self.themataKeimenaFrame.columnconfigure(1, weight=0)
