@@ -7,57 +7,72 @@ import dbOrNotdb as dbUtility
 class epilogesHander(tk.Tk):
 
     def __del__(self):
-       print("Ending Phase_1")
+        try:
+            self.frameKatigories.destroy()
+            self.themataKeimenaFrame.destroy()
+        except:
+            pass
+        print("Ending Phase_1")
 
     def __init__(self,master):
         #reference to window class as master
+        print(self)
         self.master = master
-        
+        self.master.ntestroy(self)
         self.tip = tix.Balloon(self.master.window)
-        self.createKatigoriesFrame() 
-    
-        
+        self.createKatigoriesFrame()
+
     def createKatigoriesFrame(self):
         self.frameKatigories = tk.Frame(self.master.mainFrame, bg = "#ffffff", borderwidth = 5, relief = "groove")
-        
         katigoriesList = dbUtility.get(self.master.path,("SELECT * FROM Katigoria",list()))
+
         row =  0
         for kat in katigoriesList:
              id,title = kat
-             but = tk.Button(self.frameKatigories, text = title, command = lambda x = id : self.createKeimenaFrame(x))
-             but.grid(column  = 0, row = row)
+             but = tk.Button(self.frameKatigories, width = 20, wraplength = 100,  justify = "left", text = title, command = lambda x = id : self.createKeimenaFrame(x))
+             but.grid(column  = 0, row = row,sticky = "ew")
              row += 1
-             
-        self.frameKatigories.grid( column  = 0, row = 0, sticky = "ewns")
-        
-        
+
+        self.frameKatigories.pack(side = "left", fill = "y", anchor = "nw")
+
     def createKeimenaFrame(self,id):
         try:
-            self.keimenaFrame.destroy()
-        except: 
-            pass    
-        
-        self.keimenaFrame= tk.Frame(self.master.mainFrame, bg = "#ffffff", borderwidth = 5, relief = "groove")
+            self.themataKeimenaFrame.destroy()
+        except:
+            pass
+
+        self.themataKeimenaFrame= tk.Frame(self.master.mainFrame, bg = "#ffffff", borderwidth = 5, relief = "groove")
         themataList = dbUtility.get(self.master.path,("SELECT id,themaId FROM FramesKatigorias WHERE katigoriaId = ?", (id,)))
-        
+
         for thema in themataList:
             themaKatigoriaId,  themaId = thema
             themaTitle, themaColor = dbUtility.get(self.master.path,("SELECT desc,colorCode FROM Thema WHERE id = ?",(themaId,)))[0]
-            themaFrame = tk.Frame(self.keimenaFrame, bg = themaColor, borderwidth = 3, relief = "groove")
-            label = tk.Label(themaFrame, text = themaTitle )
-            label.pack(side = "left",padx=2, pady=2)
-            
+
+            frame = tk.Frame(self.themataKeimenaFrame, bg = themaColor, borderwidth = 5, relief = "groove")
+
+            label = tk.Label(frame, text = themaTitle, justify = "left",  relief = "groove", padx = 5, pady = 5, borderwidth = 10)
+            label.grid(column = 0, row = 0)
+
             keimenaThematosKatigorias = dbUtility.get(self.master.path,("SELECT id,keimenaId FROM Buttons WHERE themaKatigoriasId = ?",(themaKatigoriaId,)))
-            
+
+            row = 0
+            column = 1
             for keimeno in keimenaThematosKatigorias:
                 garbage, keimenoId =  keimeno
+
                 title, keimeno = dbUtility.get(self.master.path,("SELECT title,desc FROM Keimena WHERE id = ?",(keimenoId,)))[0]
-                but = (tk.Button(themaFrame, text = title, command = lambda x = keimeno : pyperclip.copy(x) ))
-                but.pack(padx=2, pady=2)
-                
-      
-        
-            themaFrame.pack(fill = "x",  expand = True)
-        
-        
-        self.keimenaFrame.grid( column  = 1, row = 0, sticky = "ewns")
+
+                but = (tk.Button(frame, text = title, justify = "center",width = 15, wraplength = 100, command = lambda x = keimeno : pyperclip.copy(x) ))
+                but.grid(column = column, row = row)
+
+                self.tip.bind_widget(but, balloonmsg = keimeno)
+
+                if column >= 5:
+                    column = 1
+                    row += 1
+                else:
+                    column += 1
+
+            frame.pack(fill = "x")
+
+        self.themataKeimenaFrame.pack(side = "left", fill = "both", expand = True)
