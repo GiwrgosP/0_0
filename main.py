@@ -10,7 +10,6 @@ from tkinter.ttk import *
 #window object
 class window(tk.Tk):
     def __del__(self):
-        self.state.__del__()
         print("Ending")
 
     def __init__(self):
@@ -53,10 +52,11 @@ class window(tk.Tk):
         self.window.config(menu =  self.menuBar)
 
     def ntestroy(self,slave):
+        for item in self.mainFrame.winfo_children():
+            item.destroy()
         try:
-            self.mainFrame.destroy()
-            self.createMainFrame()
             self.state.__del__()
+            print("destroyed")
         except:
             pass
 

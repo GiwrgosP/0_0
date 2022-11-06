@@ -2,77 +2,118 @@ import tkinter as tk
 from tkinter import tix
 import pyperclip
 import dbOrNotdb as dbUtility
+import scrollableFrame as scrollableFrame
 
-
+#self.tip = tix.Balloon(self.master.window)
+#self.master.tip.bind_widget(but, balloonmsg = keimeno)
+#                but = tk.Button(frame.interior, text = title, justify = "center",width = 15, wraplength = 100, command = lambda x = keimeno : pyperclip.copy(x) )
 class epilogesHander(tk.Tk):
 
     def __del__(self):
-        try:
-            self.frameKatigories.destroy()
-            self.themataKeimenaFrame.destroy()
-        except:
-            pass
-        print("Ending Phase_1")
+
+        print("Ending epiloges")
 
     def __init__(self,master):
         #reference to window class as master
-        print(self)
         self.master = master
         self.master.ntestroy(self)
-        self.tip = tix.Balloon(self.master.window)
-        self.createKatigoriesFrame()
 
-    def createKatigoriesFrame(self):
-        self.frameKatigories = tk.Frame(self.master.mainFrame, bg = "#ffffff", borderwidth = 5, relief = "groove")
-        katigoriesList = dbUtility.get(self.master.path,("SELECT * FROM Katigoria",list()))
+        self.katigories = buttonList(self,\
+        "SELECT * FROM Katigoria where id <> ?",\
+        "delete Katigories")
+        self.themata = buttonList(self,\
+        "select f.id, t.desc from (FramesKatigorias as f left Join Thema as t on t.id = f.themaId) where f.katigoriaId = ?",\
+        "delete Themata")
+        self.keimena = proboliKeimenou(self,"select b.keimenaId,k.title,k.desc from (Buttons as b left Join Keimena as k on k.id = b.keimenaId) where b.themaKatigoriasId = ?",\
+        "delete proboliKeimenou")
 
-        row =  0
-        for kat in katigoriesList:
-             id,title = kat
-             but = tk.Button(self.frameKatigories, width = 20, wraplength = 100,  justify = "left", text = title, command = lambda x = id : self.createKeimenaFrame(x))
-             but.grid(column  = 0, row = row,sticky = "ew")
-             row += 1
+        self.katigories.slaveList = self.themata
+        self.themata.slaveList = self.keimena
 
-        self.frameKatigories.pack(side = "left", fill = "y", anchor = "nw")
+        self.katigories.createBut(-1)
 
-    def createKeimenaFrame(self,id):
-        try:
-            self.themataKeimenaFrame.destroy()
-        except:
-            pass
+class proboliKeimenou(tk.Tk):
 
-        self.themataKeimenaFrame= tk.Frame(self.master.mainFrame, bg = "#ffffff", borderwidth = 5, relief = "groove")
-        themataList = dbUtility.get(self.master.path,("SELECT id,themaId FROM FramesKatigorias WHERE katigoriaId = ?", (id,)))
+    def __del__(self):
+        print(self.delMsg)
 
-        for thema in themataList:
-            themaKatigoriaId,  themaId = thema
-            themaTitle, themaColor = dbUtility.get(self.master.path,("SELECT desc,colorCode FROM Thema WHERE id = ?",(themaId,)))[0]
+    def __init__(self,master,query, delMsg):
+        self.master = master
+        self.query = query
+        self.delMsg = delMsg
+        self.frame = tk.Frame(self.master.master.mainFrame,bg = "#ffffff", borderwidth = 5, relief = "groove")
+        self.frame.pack(side = "left", fill = "both", expand = True, anchor = "nw")
 
-            frame = tk.Frame(self.themataKeimenaFrame, bg = themaColor, borderwidth = 5, relief = "groove")
+    def createBut(self, id):
+        self.scrolledFrame = scrollableFrame.VerticalScrolledFrame(self.frame)
+        self.scrolledFrame.configure(borderwidth = 5, relief = "ridge")
+        self.scrolledFrame.pack(fill = "both",expand = True)
 
-            label = tk.Label(frame, text = themaTitle, justify = "left",  relief = "groove", padx = 5, pady = 5, borderwidth = 10)
-            label.grid(column = 0, row = 0)
+        butList = dbUtility.get(self.master.master.path,(self.query,(id,)))
+        row = 0
+        column = 0
+        for widget in butList:
+            id,title,keimeno = widget
+            if keimeno != None:
+                but = tk.Button(self.scrolledFrame.interior,text = title, padx = 3, pady = 3, relief = "raised", justify = "center",width = 15, wraplength = 100, command = lambda x = keimeno : pyperclip.copy(x))
 
-            keimenaThematosKatigorias = dbUtility.get(self.master.path,("SELECT id,keimenaId FROM Buttons WHERE themaKatigoriasId = ?",(themaKatigoriaId,)))
+                but.grid(row = row, column = column, padx = 3, pady = 3, ipadx = 5, ipady = 5)
 
-            row = 0
-            column = 1
-            for keimeno in keimenaThematosKatigorias:
-                garbage, keimenoId =  keimeno
-
-                title, keimeno = dbUtility.get(self.master.path,("SELECT title,desc FROM Keimena WHERE id = ?",(keimenoId,)))[0]
-
-                but = (tk.Button(frame, text = title, justify = "center",width = 15, wraplength = 100, command = lambda x = keimeno : pyperclip.copy(x) ))
-                but.grid(column = column, row = row)
-
-                self.tip.bind_widget(but, balloonmsg = keimeno)
-
-                if column >= 5:
-                    column = 1
+                column += 1
+                if column > 4:
                     row += 1
-                else:
-                    column += 1
+                    column = 0
 
-            frame.pack(fill = "x")
 
-        self.themataKeimenaFrame.pack(side = "left", fill = "both", expand = True)
+    def deleteBut(self):
+        for item in self.frame.winfo_children():
+            item.destroy()
+
+class buttonList(tk.Tk):
+
+    def __del__(self):
+        print(self.delMsg)
+
+    def __init__(self,master,query,delMsg):
+        self.master = master
+        self.query = query
+        self.delMsg = delMsg
+        self.slaveList = None
+        self.but = {}
+        self.value = None
+
+
+        self.frame = tk.Frame(self.master.master.mainFrame,bg = "#b9b5b5", borderwidth = 5, relief = "groove")
+        self.frame.pack(side = "left", fill = "y", anchor = "nw")
+
+    def createBut(self, id):
+
+        self.scrolledFrame = scrollableFrame.VerticalScrolledFrame(self.frame)
+        self.scrolledFrame.configure(borderwidth = 5, relief = "groove")
+        self.scrolledFrame.pack(fill = "y", expand =True)
+
+        butList = dbUtility.get(self.master.master.path,(self.query,(id,)))
+
+        for widget in butList:
+            id,title = widget
+            but = tk.Button(self.scrolledFrame.interior, width = 20, wraplength = 100,  justify = "left", text = title, command = lambda x = id, y = title : self.butFunction(x,y), relief = "groove")
+            but.pack(side = "top", fill = "x")
+            self.but[id] = but
+
+    def butFunction(self,id,title):
+        if self.value != None:
+            self.but[self.value].configure(state = "normal")
+
+        self.but[id].configure(state = "disabled")
+
+        self.value = id
+
+        self.slaveList.deleteBut()
+        self.slaveList.createBut(id)
+
+    def deleteBut(self):
+        for item in self.frame.winfo_children():
+            item.destroy()
+        self.slaveList.deleteBut()
+        self.but.clear()
+        self.value = None
