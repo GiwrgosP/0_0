@@ -4,7 +4,7 @@
 block_cipher = None
 
 
-a = Analysis(['main.py','phase_1.py','phase_2.py'],
+a = Analysis(['main.py','epiloges.py','prosthiki.py','eksagwgi.py'],
              pathex=[],
              binaries=[],
              datas=[('db.db', '.')],
