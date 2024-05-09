@@ -15,7 +15,6 @@ class window(tk.Tk):
     def __init__(self):
         #find the path of the current file
         self.path = os.path.dirname(os.path.abspath(__file__))
-        #make the fileSelected paremeter equal to None
         #create a window object
         self.window = tix.Tk()
         #name it
@@ -66,7 +65,7 @@ class window(tk.Tk):
 
 def main():
     root = window()
-    root.window.mainloop() 
+    root.window.mainloop()
 
 #call the main function
 main()
