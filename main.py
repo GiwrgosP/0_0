@@ -66,7 +66,7 @@ class window(tk.Tk):
 
 def main():
     root = window()
-    root.window.mainloop()
+    root.window.mainloop() 
 
 #call the main function
 main()
