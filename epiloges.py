@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import tix
-import pyperclip
+#import pyperclip
 import dbOrNotdb as dbUtility
 import scrollableFrame as scrollableFrame
 
@@ -10,7 +10,6 @@ import scrollableFrame as scrollableFrame
 class epilogesHander(tk.Tk):
 
     def __del__(self):
-
         print("Ending epiloges")
 
     def __init__(self,master):
