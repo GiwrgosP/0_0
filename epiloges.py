@@ -1,5 +1,6 @@
 import tkinter as tk
 from tkinter import tix
+import pyperclip
 import dbOrNotdb as dbUtility
 import scrollableFrame as scrollableFrame
 import pyperclip
@@ -15,6 +16,7 @@ class epilogesHander():
         #reference to window class as master
         self.master = master
         self.master.ntestroy(self)
+       # marta is a bitch
         self.tip = tix.Balloon(self.master.window)
 
         self.katigories = buttonList.buttonList(self,\
