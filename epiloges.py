@@ -43,7 +43,7 @@ class proboliKeimenou(tk.Tk):
         self.frame = tk.Frame(self.master.master.mainFrame,bg = "#ffffff", borderwidth = 5, relief = "groove")
         self.frame.pack(side = "left", fill = "both", expand = True, anchor = "nw")
 
-    def createBut(self, id):
+    def createButtonList(self, id):
         self.scrolledFrame = scrollableFrame.VerticalScrolledFrame(self.frame)
         self.scrolledFrame.configure(borderwidth = 5, relief = "ridge")
         self.scrolledFrame.pack(fill = "both",expand = True)
@@ -66,6 +66,6 @@ class proboliKeimenou(tk.Tk):
                     column = 0
 
 
-    def deleteBut(self):
+    def deleteButtonList(self):
         for item in self.frame.winfo_children():
             item.destroy()
