@@ -3,7 +3,7 @@ from tkinter import tix
 import pyperclip
 import dbOrNotdb as dbUtility
 import scrollableFrame as scrollableFrame
-
+import pyperclip
 import buttonList as buttonList
 
 
