@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import tix
 import dbOrNotdb as dbUtility
 import scrollableFrame as scrollableFrame
-
+import pyperclip
 import buttonList as buttonList
 
 
