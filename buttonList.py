@@ -1,5 +1,4 @@
 import tkinter as tk
-import pyperclip
 import scrollableFrame as scrollableFrame
 import dbOrNotdb as dbUtility
 
