@@ -21,10 +21,18 @@ class epilogesHander():
 
         self.katigories = buttonList.buttonList(self,\
         "SELECT * FROM Katigoria where id <> ?",\
-        "delete Katigories")
+        tk.StringVar(""),\
+        tk.StringVar(""),\
+        "delete Katigories",\
+        self.master.mainFrame,\
+        self.master.path)
         self.themata = buttonList.buttonList(self,\
         "select f.id, t.desc from (FramesKatigorias as f left Join Thema as t on t.id = f.themaId) where f.katigoriaId = ?",\
-        "delete Themata")
+        tk.StringVar(""),\
+        tk.StringVar(""),\
+        "delete Themata",\
+        self.master.mainFrame,\
+        self.master.path)
         self.keimena = proboliKeimenou(self,"select b.keimenaId,k.title,k.desc from (Buttons as b left Join Keimena as k on k.id = b.keimenaId) where b.themaKatigoriasId = ?",\
         "delete proboliKeimenou")
 
@@ -50,7 +58,7 @@ class proboliKeimenou(tk.Tk):
         self.scrolledFrame.configure(borderwidth = 5, relief = "ridge")
         self.scrolledFrame.pack(fill = "both",expand = True)
 
-        butList = dbUtility.get(self.master.master.path,(self.query,(id,)))
+        butList = self.getChoiceValues(id)
         row = 0
         column = 0
         for widget in butList:
@@ -66,6 +74,9 @@ class proboliKeimenou(tk.Tk):
                 if column > 4:
                     row += 1
                     column = 0
+
+    def getChoiceValues(self,id):
+        return dbUtility.get(self.master.master.path,(self.query,(id,)))
 
 
     def deleteButtonList(self):

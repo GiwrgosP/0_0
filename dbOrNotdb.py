@@ -20,6 +20,7 @@ def get(path,sqlC):
     return rows
 
 def add(path,sqlC):
+    print(sqlC)
     con,c = conn(path)
     str, value = sqlC
     c.execute(str,value)
