@@ -5,7 +5,7 @@ import scrollableFrame as scrollableFrame
 from tkinter.scrolledtext import ScrolledText
 import buttonList as buttonList
 
-class prosthikiHander(tk.Tk):
+class prosthikiHander():
 
     def __del__(self):
 
@@ -136,7 +136,7 @@ class listHandler(tk.Tk):
         self.selectionList.createButtonList(self.selectionList.masterValueSelected)
 
 
-    def changeButttonFromList(self,value, id):
+    def changeButttonFromList(self,value,id):
         dbUtility.add(self.master.master.path,(self.updateEntryQuery,(value,id)))
         self.selectionList.deleteButtonList()
         self.selectionList.createButtonList(self.selectionList.masterValueSelected)
