@@ -14,7 +14,6 @@ class syzygyWindow(tk.Tk):
 
     menuOptions = { "ΕπιλοYes" : {"Δεδομένα": epiloges.epilogesHander,
                                 "Προσθήκη": prosthiki.prosthikiHander,
-                                "Προσθήκη": prosthiki.anazitisiHander,
                                 "Εξαγωγή": eksagwgi.eksagwgiHander},
                     "Έξοδος": {"ΕΞΟΔΟΣ": quit.quitHander}
     }
