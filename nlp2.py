@@ -17,13 +17,13 @@ def search_texts():
     keyword_vector = nlp(keyword).vector
 
     path = os.path.dirname(os.path.abspath(__file__))
-    results = dbUtility.get(path,("SELECT title,desc,vector FROM nlp WHERE id <> ?",(-1,)))
+    results = dbUtility.get(path,("SELECT id, title, desc, vector FROM nlp WHERE id <> ?",(-1,)))
 
 
     similarities = []
     for result in results:
-        if result[2] is not None:
-            text_vector = np.frombuffer(result[2], dtype=np.float32)
+        if result[3] is not None:
+            text_vector = np.frombuffer(result[3], dtype=np.float32)
             print(text_vector, "text_vector")
             similarity = np.dot(keyword_vector, text_vector) / (np.linalg.norm(keyword_vector) * np.linalg.norm(text_vector))
             print(similarity, "similarity")
@@ -34,7 +34,7 @@ def search_texts():
 
     # Update the listbox with top results
     for similarity, result in similarities:  # Show top 10 results
-        result_listbox.insert(tk.END, f"similarity:{similarity}, Subcategory: {result[1]}, Text: {result[2]}")
+        result_listbox.insert(tk.END, f"similarity:{similarity}, Text: {result[2]}")
 
 
 # Create the main window
