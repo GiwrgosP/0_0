@@ -5,7 +5,10 @@ from tkinter import tix
 from tkinter.ttk import *
 
 import epiloges
+#import anazitisi
 import prosthiki
+import new
+import change
 import eksagwgi
 import quit
 
@@ -13,8 +16,10 @@ import quit
 class syzygyWindow(tk.Tk):
 
     menuOptions = { "ΕπιλοYes" : {"Δεδομένα": epiloges.epilogesHander,
-                                "Προσθήκη": prosthiki.prosthikiHander,
+                                "Προσθήκη": new.newHander,
+                                "Τροποποίηση": change.changeHander,
                                 "Εξαγωγή": eksagwgi.eksagwgiHander},
+
                     "Έξοδος": {"ΕΞΟΔΟΣ": quit.quitHander}
     }
 
